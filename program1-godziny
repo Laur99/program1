@@ -1,0 +1,18 @@
+godzina = '12'
+
+rano = [ '5', '6', '7', '8', '9', '10', '11' ]
+poludnie = [ '12' ]
+popoludnie = [ '13', '14', '15', '16', '17', '18' ]
+wieczor = [ '19', '20', '21', '22' ]
+noc = [ '23', '24', '1', '2', '3', '4' ]
+
+if godzina in rano:
+  print ('Jest rano')
+elif godzina in poludnie:
+  print ('Jest poludnie')
+elif godzina in popoludnie:
+  print ('Jest popoludnie')
+elif godzina in wieczor:
+  print ('Jest wieczor')
+else:
+  print ('Jest noc')
